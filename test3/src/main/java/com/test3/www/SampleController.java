@@ -50,7 +50,7 @@ public class SampleController {
 		System.out.println("list dto222:" + list);
 		log.info("list dto:" + list);
 		
-		return "ex02Bean";
+		return "<h1>ex02Bean</h1>";
 	}
 		
 	
