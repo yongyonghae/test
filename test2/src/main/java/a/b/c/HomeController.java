@@ -33,7 +33,7 @@ public class HomeController {
 		System.out.println(mb2);
 //		mm.join(model,mb);
 		ModelAndView mav = new ModelAndView();
-		mav.addObject("mb",mb);
+		mav.addObject("mb",mb2);
 		mav.setViewName("main");
 		//		model.addAttribute("mb",mb); //model->request
 		return mav;
