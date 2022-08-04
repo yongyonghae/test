@@ -18,7 +18,7 @@ import a.b.c.bean.Member;
 
 @Controller
 public class HomeController {
-
+	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 
@@ -29,8 +29,8 @@ public class HomeController {
 		return "home";
 	}
 	@RequestMapping(value = "/join", method = RequestMethod.GET)
-	public ModelAndView join(Model model, @ModelAttribute("mb") Member mb) { 
-		System.out.println(mb);
+	public ModelAndView join(Model model, @ModelAttribute("mb") Member mb2) { 
+		System.out.println(mb2);
 //		mm.join(model,mb);
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("mb",mb);
